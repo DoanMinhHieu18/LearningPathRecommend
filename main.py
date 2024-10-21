@@ -12,6 +12,10 @@ def main():
     majors_list = ReadFile.read_majors_from_csv(data_path.major_data_path)
     learn_log = ReadFile.read_learn_logs_from_csv(data_path.learn_log_path)
     
+    ### Calculate grade point average for a subject
+    ### hihi chua lam
+    
+    
     ### Get data from Learner Input
     learner = Learner(majors_list)
     
@@ -29,8 +33,14 @@ def main():
     # CourseGraph.print_tree(course_graph)
     
     ### Recommend Learing Path 
-    learning_path_recommend = Recommend.recommend(learner, learner_log, course_list, course_graph)
-    print(learning_path_recommend)
+    learning_path_recommend = Recommend.recommend(learner, learner_log, course_list, course_graph, 241)
+    print_learning_path(learning_path_recommend)
 
+def print_learning_path(learning_path_recommend):
+    for semester in learning_path_recommend:
+        print("----------" + str(semester.semester) + "-----------------")
+        for course in semester.courses:
+            print(course.course_name)
+        print("Tong so tin chi trong hoc ky: " + str(semester.credit))
 
 main()

@@ -28,8 +28,8 @@ def read_courses_from_csv(learner_major):
     with open(file_path, newline='', encoding='utf-8') as csvfile:
         csvreader = csv.reader(csvfile)
         for row in csvreader:
-            if len(row) == 8:  # Make sure each row has 8 elements
-                course_id, course_name, major_id, prerequisite, semester, count_learner, average_score, credit = row
+            if len(row) == 10:  # Make sure each row has 8 elements
+                course_id, course_name, major_id, prerequisite, semester, count_learner, average_score, credit, is_group_c, is_group_d = row
                 course = Course(
                     course_id,
                     course_name,
@@ -39,7 +39,9 @@ def read_courses_from_csv(learner_major):
                     int(count_learner),
                     float(average_score),
                     int(credit),
-                    True
+                    True, 
+                    True if is_group_c == 1 else False,
+                    True if is_group_d == 1 else False
                 )
                 courses.append(course)
             else:
@@ -51,13 +53,15 @@ def read_learn_logs_from_csv(file_path):
     with open(file_path, newline='', encoding='utf-8') as csvfile:
         csvreader = csv.reader(csvfile)
         for row in csvreader:
-            if len(row) == 4:  # Make sure each row has 4 elements
-                student_id, course_id, score, count_learns = row
+            if len(row) == 6:  # Make sure each row has 4 elements
+                student_id, course_id, score, count_learns, course_name, credit = row
                 log = LearnerLog(
                     int(student_id),
                     course_id,
                     float(score) if score != "MT" else 10,
-                    int(count_learns)
+                    int(count_learns),
+                    course_name,
+                    int(credit)
                 )
                 learner_logs.append(log)
             else:

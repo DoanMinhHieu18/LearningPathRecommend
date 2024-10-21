@@ -7,7 +7,7 @@ def create_course_tree(course_list):
     sorted_courses = sorted(course_list, key=lambda c: c.semester)
 
     # Initialize root node
-    init_course_node = Course(None, 'Semester 1', None, None, 1, None, None, None, False)
+    init_course_node = Course(None, 'Semester 1', None, None, 1, None, None, None, False, None, None)
     root = CourseNode(init_course_node)
 
     current_semester = 1
@@ -21,7 +21,7 @@ def create_course_tree(course_list):
             current_semester = course.semester
             
             # Create new node semester
-            new_course_semester = Course(None, f'Semester {current_semester}', None, None, 1, None, None, None, False)
+            new_course_semester = Course(None, f'Semester {current_semester}', None, None, 1, None, None, None, False, None, None)
             new_node = CourseNode(new_course_semester)
             current_node.add_child(new_node)
             current_node = current_node.get_last_child()
