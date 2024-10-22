@@ -1,7 +1,7 @@
 class Learner:
     def __init__(self, majors_list):
         self.learner_mssv = 2110162
-        self.learner_english_level = 4
+        self.learner_english_level = 3
         self.learner_major = 5
         self.learn_summer_semester = False
         # self.learner_mssv = input("Nhap mssv: ")

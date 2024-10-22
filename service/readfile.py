@@ -40,8 +40,8 @@ def read_courses_from_csv(learner_major):
                     float(average_score),
                     int(credit),
                     True, 
-                    True if is_group_c == 1 else False,
-                    True if is_group_d == 1 else False
+                    True if int(is_group_c) == 1 else False,
+                    True if int(is_group_d) == 1 else False
                 )
                 courses.append(course)
             else:
@@ -60,8 +60,8 @@ def read_learn_logs_from_csv(file_path):
                     course_id,
                     float(score) if score != "MT" else 10,
                     int(count_learns),
-                    course_name,
-                    int(credit)
+                    int(credit),
+                    course_name
                 )
                 learner_logs.append(log)
             else:

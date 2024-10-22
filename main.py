@@ -20,7 +20,7 @@ def main():
     learner = Learner(majors_list)
     
     ### Get Learner Log
-    learner_log = [log.course_id for log in learn_log if log.student_id == learner.learner_mssv]
+    learner_log = [log for log in learn_log if log.student_id == learner.learner_mssv]
     
     ### Get Learner Major Course
     course_list = ReadFile.read_courses_from_csv(learner.learner_major)

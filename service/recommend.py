@@ -1,6 +1,11 @@
 from model.course import Course
 learning_path = []
 current_semester = 0
+course_group_c = []
+course_group_d = []
+### cac van de chua giai quyet
+### goi y mon cai thien
+### goi y nhom c + d
 class LearningPathElement:
     def __init__(self, semester):
         self.semester = semester
@@ -12,15 +17,20 @@ def recommend(learner, learner_log, unlearned_log, course_graph, semester):
     global learning_path
     global current_semester
     current_semester = semester
-    travel_course_graph(learner, learner_log, unlearned_log, course_graph)
-    # print_unlearned_log(unlearned_log)
-    # learner_log = sorted(filter(lambda log: log.score < 8, learner_log), key=lambda log: log.score)
-    # global learning_path
-    # for semester in learning_path:
-    #     if semester.credit<18:
-    #         for log in learner_log:
-    #             if semester.credit + log.credit <= 18:
-    #                 semester.courses.append(log.course_name)
+    course_id_leaner_log = [log.course_id for log in learner_log]
+    add_english_course_to_learning_path(learner.learner_english_level, course_id_leaner_log, unlearned_log)
+    travel_course_graph(learner, course_id_leaner_log, unlearned_log, course_graph)
+    learner_log = sorted(filter(lambda log: log.score < 8, learner_log), key=lambda log: log.score)
+    global learning_path
+    for semester in learning_path:
+        if semester.credit<14:
+            for log in learner_log:
+                if int(semester.credit) + int(log.credit) <= 18:
+                    semester.courses.append(log)
+                    learner_log.remove(log)
+                    semester.credit = semester.credit + log.credit
+                    if semester.credit >= 14:
+                        break
     return learning_path
 
 ### Add english 
@@ -29,14 +39,28 @@ def recommend(learner, learner_log, unlearned_log, course_graph, semester):
 ### Step 2: if it is course node ---> check is_subject_learned
 ### Step 3: Check prerequisite
 def travel_course_graph(learner, learner_log, unlearned_log, course_graph):
-    add_english_course_to_learning_path(learner.learner_english_level, learner_log, unlearned_log)
+    global course_group_c
+    global course_group_d
     for child_node in course_graph.children:
         if child_node.course_node.is_course == False:
             travel_course_graph(learner, learner_log, unlearned_log, child_node)
         else: 
             if is_subject_learned(child_node.course_node.course_id, learner_log, unlearned_log):
+                if child_node.course_node.is_group_c == True and child_node.course_node.course_id not in course_group_c:
+                    course_group_c.append(child_node.course_node.course_id)
+                if child_node.course_node.is_group_d == True:
+                    course_group_d.append(child_node.course_node.course_id)
                 continue
-            check_prerequisite_and_add_learning_path(learner.learner_english_level, child_node.course_node,learner_log, unlearned_log)
+            else:
+                if child_node.course_node.is_group_c == True and len(course_group_c) == 5:
+                    continue
+                if child_node.course_node.is_group_d == True and len(course_group_d) == 1:
+                    continue
+                check_prerequisite_and_add_learning_path(learner.learner_english_level, child_node.course_node,learner_log, unlearned_log)
+                if child_node.course_node.is_group_c == True and child_node.course_node.course_id not in course_group_c:
+                    course_group_c.append(child_node.course_node.course_id)
+                if child_node.course_node.is_group_d == True:
+                    course_group_d.append(child_node.course_node.course_id)
     
 def add_english_course_to_learning_path(learner_english_level, learner_log, unlearned_log):
     global learning_path
@@ -92,14 +116,6 @@ def check_prerequisite_and_add_learning_path(english_level, course, leaner_log, 
     
     ### Check English
     if course.prerequisite == None and english_level < english_course:
-        if english_course == 1:
-            english_course == None
-        if english_course == 2:
-            english_course == "Anh văn 2"
-        if english_course == 3:
-            english_course == "Anh văn 3"
-        if english_course == 4:
-            english_course == "Anh văn 4"
         add_course_to_learning_path_with_english(course, english_course, unlearned_log)
     
     ### Check subject prerequisite and English
@@ -162,7 +178,7 @@ def add_course_to_learning_path_in_case_prerequisite_recommended(course, unlearn
     for element in learning_path:
         if not find_prerequisite:
             for element_course in element.courses:
-                if element_course.course_name == course.prerequisite:
+                if element_course.course_id == course.prerequisite:
                     find_prerequisite = True
                     break
         else:
@@ -191,6 +207,14 @@ def add_course_to_learning_path_with_english(course, english_course, unlearned_l
     global learning_path
     find_english_course = False
     added_course = False
+    if english_course == 1:
+        english_course = None
+    if english_course == 2:
+        english_course = "Anh văn 2"
+    if english_course == 3:
+        english_course = "Anh văn 3"
+    if english_course == 4:
+        english_course = "Anh văn 4"
     for element in learning_path:
         if not find_english_course:
             for element_course in element.courses:
@@ -227,7 +251,7 @@ def add_course_to_learning_path_with_prerequisite_and_english(course, english_co
     for element in learning_path:
         if not find_prerequisite or not find_english_course:
             for element_course in element.courses:
-                if element_course.course_name == course.prerequisite:
+                if element_course.course_id == course.prerequisite:
                     find_prerequisite = True
                 if element_course.course_name == english_course:
                     find_english_course = True
