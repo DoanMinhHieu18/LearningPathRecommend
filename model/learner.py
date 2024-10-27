@@ -5,7 +5,7 @@ class Learner:
         self.learner_major = 5
         self.learn_summer_semester = True
         self.summer_semester_credit = 10
-        self.number_of_free_elective_credit = 0
+        self.number_of_free_elective_credit = 2
         # self.learner_mssv = input("Nhap mssv: ")
         # self.learner_english_level = input("Nhap trinh do tieng anh (Neu da hoan thanh: 1, Chua hoan thanh: 2): ")
         # if self.learner_english_level == 2:
