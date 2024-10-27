@@ -37,10 +37,15 @@ def main():
     print_learning_path(learning_path_recommend)
 
 def print_learning_path(learning_path_recommend):
-    for semester in learning_path_recommend:
-        print("----------" + str(semester.semester) + "-----------------")
-        for course in semester.courses:
-            print(course.course_name)
-        print("Tong so tin chi trong hoc ky: " + str(semester.credit))
+    try:
+        for semester in learning_path_recommend:
+            print("----------" + str(semester.semester) + "-----------------")
+            for course in semester.courses:
+                print(course.course_name)
+            print("Tong so tin chi trong hoc ky: " + str(semester.credit))
+        print("")
+    except:
+        print(learning_path_recommend)
+        
 
 main()

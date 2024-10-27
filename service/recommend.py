@@ -2,10 +2,13 @@ from model.course import Course
 learning_path = []
 current_semester = 0
 course_group_c = []
-course_group_d = []
+num_course_group_c = 0
+num_course_group_d = 0
+learn_summer_semester = False
+credit_summer_semester = 0
+total_course_group_c = 0
 ### cac van de chua giai quyet
-### goi y mon cai thien
-### goi y nhom c + d
+### goi y nhom c
 class LearningPathElement:
     def __init__(self, semester):
         self.semester = semester
@@ -16,23 +19,40 @@ class LearningPathElement:
 def recommend(learner, learner_log, unlearned_log, course_graph, semester):
     global learning_path
     global current_semester
+    global learn_summer_semester
+    global credit_summer_semester
+    global num_course_group_c
+    global total_course_group_c
+    ### Caculate number of course group c
+    for course in unlearned_log:
+        if course.is_group_c == True:
+            total_course_group_c = total_course_group_c + 1
+            
+    if learner.learn_summer_semester == True:
+        learn_summer_semester = True
+        credit_summer_semester = learner.summer_semester_credit
+    num_course_group_c = 5 + 3 - learner.number_of_free_elective_credit
+    if num_course_group_c > total_course_group_c/2:
+        return "Môn nhóm C không đủ"
     current_semester = semester
     course_id_leaner_log = [log.course_id for log in learner_log]
     add_english_course_to_learning_path(learner.learner_english_level, course_id_leaner_log, unlearned_log)
     travel_course_graph(learner, course_id_leaner_log, unlearned_log, course_graph)
-    learner_log = sorted(filter(lambda log: log.score < 8, learner_log), key=lambda log: log.score)
-    global learning_path
-    for semester in learning_path:
-        if semester.credit<14:
-            for log in learner_log:
-                if int(semester.credit) + int(log.credit) <= 18:
-                    semester.courses.append(log)
-                    learner_log.remove(log)
-                    semester.credit = semester.credit + log.credit
-                    if semester.credit >= 14:
-                        break
+    learner_log = sorted(learner_log, key=lambda log: log.score)
+    # global learning_path
+    # for semester in learning_path:
+    #     if int(semester.semester)%10 == 3:
+    #         continue
+    #     if semester.credit<14:
+    #         for log in learner_log:
+    #             if int(semester.credit) + int(log.credit) <= 18:
+    #                 semester.courses.append(log)
+    #                 learner_log.remove(log)
+    #                 semester.credit = semester.credit + log.credit
+    #                 if semester.credit >= 14:
+    #                     break
     return learning_path
-
+    
 ### Add english 
 ### Travel course and add new course to learning_path
 ### Step 1: if it is not course not ---> recursive
@@ -40,7 +60,9 @@ def recommend(learner, learner_log, unlearned_log, course_graph, semester):
 ### Step 3: Check prerequisite
 def travel_course_graph(learner, learner_log, unlearned_log, course_graph):
     global course_group_c
-    global course_group_d
+    global num_course_group_c
+    global num_course_group_d
+            
     for child_node in course_graph.children:
         if child_node.course_node.is_course == False:
             travel_course_graph(learner, learner_log, unlearned_log, child_node)
@@ -48,19 +70,32 @@ def travel_course_graph(learner, learner_log, unlearned_log, course_graph):
             if is_subject_learned(child_node.course_node.course_id, learner_log, unlearned_log):
                 if child_node.course_node.is_group_c == True and child_node.course_node.course_id not in course_group_c:
                     course_group_c.append(child_node.course_node.course_id)
-                if child_node.course_node.is_group_d == True:
-                    course_group_d.append(child_node.course_node.course_id)
                 continue
             else:
-                if child_node.course_node.is_group_c == True and len(course_group_c) == 5:
+                ### Check group c
+                if child_node.course_node.is_group_c == True and len(course_group_c) == num_course_group_c:
                     continue
-                if child_node.course_node.is_group_d == True and len(course_group_d) == 1:
+                
+                
+                ### Check group d
+                if child_node.course_node.is_group_d == True and num_course_group_d < 4:
+                    num_course_group_d = num_course_group_d + 1
                     continue
+                elif child_node.course_node.is_group_d == True and num_course_group_d == 4:
+                    child_node.course_node.course_name = "Tín chỉ tự chọn nhóm D"
+                    check_prerequisite_and_add_learning_path(learner.learner_english_level, child_node.course_node,learner_log, unlearned_log)
+                    continue
+                
+                ### Check free elective course
+                if child_node.course_node.course_id in ["TCTD1", "TCTD2", "TCTD3"]:
+                    if learner.number_of_free_elective_credit > 0:
+                        learner.number_of_free_elective_credit = learner.number_of_free_elective_credit - 1
+                        check_prerequisite_and_add_learning_path(learner.learner_english_level, child_node.course_node,learner_log, unlearned_log)
+                    continue
+                
                 check_prerequisite_and_add_learning_path(learner.learner_english_level, child_node.course_node,learner_log, unlearned_log)
                 if child_node.course_node.is_group_c == True and child_node.course_node.course_id not in course_group_c:
                     course_group_c.append(child_node.course_node.course_id)
-                if child_node.course_node.is_group_d == True:
-                    course_group_d.append(child_node.course_node.course_id)
     
 def add_english_course_to_learning_path(learner_english_level, learner_log, unlearned_log):
     global learning_path
@@ -132,7 +167,12 @@ def next_semester(semester):
     if semester%10 == 1:
         return semester + 1
     if semester%10 == 2:
+        global learn_summer_semester
+        if learn_summer_semester:
+            return semester + 1
         return semester + 10 - 1
+    if semester%10 == 3:
+        return semester + 10 - 2
      
 def get_english_course_level(course_id):
     if  course_id == "DATH":
@@ -150,7 +190,7 @@ def add_course_to_learning_path_in_case_prerequisite_in_lean_log(course, unlearn
     global learning_path
     added_course = False
     for element in learning_path:
-        if element.credit + course.credit <= 18:
+        if element.credit + course.credit <= (18 if int(element.semester)%10 != 3 else int(credit_summer_semester)):
             element.courses.append(course)
             added_course = True
             element.credit = element.credit + course.credit
@@ -182,7 +222,7 @@ def add_course_to_learning_path_in_case_prerequisite_recommended(course, unlearn
                     find_prerequisite = True
                     break
         else:
-            if element.credit + course.credit <= 18:
+            if element.credit + course.credit <= (18 if int(element.semester)%10 != 3 else int(credit_summer_semester)):
                 element.courses.append(course)
                 added_course = True
                 element.credit = element.credit + course.credit
@@ -222,7 +262,7 @@ def add_course_to_learning_path_with_english(course, english_course, unlearned_l
                     find_english_course = True
                     break
         else:
-            if element.credit + course.credit <= 18:
+            if element.credit + course.credit <= (18 if int(element.semester)%10 != 3 else int(credit_summer_semester)):
                 element.courses.append(course)
                 added_course = True
                 element.credit = element.credit + course.credit
@@ -258,7 +298,7 @@ def add_course_to_learning_path_with_prerequisite_and_english(course, english_co
                 if find_english_course and find_prerequisite:
                     break    
         else:
-            if element.credit + course.credit <= 18:
+            if element.credit + course.credit <= (18 if int(element.semester)%10 != 3 else int(credit_summer_semester)):
                 element.courses.append(course)
                 added_course = True
                 element.credit = element.credit + course.credit
@@ -282,7 +322,7 @@ def add_course_to_learning_path(course, unlearned_log):
     global learning_path
     added_course = False
     for element in learning_path:
-        if element.credit + course.credit <= 18:
+        if element.credit + course.credit <= (18 if int(element.semester)%10 != 3 else int(credit_summer_semester)):
             element.courses.append(course)
             added_course = True
             element.credit = element.credit + course.credit
