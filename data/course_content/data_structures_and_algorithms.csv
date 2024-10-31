@@ -1,0 +1,48 @@
+1|Giới thiệu|1
+2|Giới thiệu về môn học
+3|Các khái niệm: dữ liệu, kiểu dữ liệu, kiểu dữ liệu trừu tượng, cấu trúc dữ liệu, giải thuật.
+4|Ôn tập về con trỏ, mảng, struct, và class.
+5|Độ phức tạp giải thuật|1
+6|Khái niệm độ phức tạp
+7|Ký hiệu Big-O và các trường hợp
+8|Các bài toán và các độ phức tạp thường gặp
+9|Giới thiệu về P và NP
+10|Danh sách|1
+11|Khái niệm và ứng dụng
+12|Hiện thực bằng mảng (array)
+13|Hiện thực bằng liên kết đơn
+14|Các dạng liên kết phức tạp khác
+15|Đánh giá các dạng hiện thực
+16|Chồng và Hàng|1
+17|Các ứng dụng của chồng & hàng
+18|Các tác vụ cơ bản trên chồng
+19|Hiện thực chồng bằng danh sách liên kết và mảng
+20|Các tác vụ cơ bản trên hàng
+21|Hiện thực hàng bằng danh sách liên kết và mảng
+22|Cây nhị phân|1
+23|Các khái niệm căn bản về cây và ứng dụng
+24|Cây nhị phân 
+25|Cấu trúc lưu trữ và các phương thức
+26|Cây nhị phân tìm kiếm
+27|Cây biểu thức
+28|Cấu trúc cây nâng cao|1
+29|Cây AVL 
+30|Cây đa phân 
+31|Cây B-Tree 
+32|Heap|1
+33|Khái niệm và ứng dụng
+34|Cấu trúc lưu trữ và các phép toán
+35|Sắp xếp|1
+36|Khái niệm và ứng dụng
+37|Các giải thuật chèn
+38|Các giải thuật chọn
+39|Các giải thuật trao đổi
+40|Các giải thuật sắp xếp ngoài
+41|Đồ thị|1
+42|Khái niệm và ứng dụng
+43|Cấu trúc lưu trữ và các phương thức
+44|Các bài toán ứng dụng trên đồ thị
+45|Tìm kiếm|1
+46|Giải thuật tìm kiếm trên danh sách không và có thứ tự
+47|Danh sách tự tổ chức
+48|Giải thuật băm

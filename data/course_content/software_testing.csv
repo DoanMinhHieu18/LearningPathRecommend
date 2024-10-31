@@ -1,0 +1,45 @@
+1|Chương 1. Tổng quát về kiểm thử phần mềm|1
+2|Vai trò và tầm quan trọng của kiểm thử phần mềm|0
+3|Các kiểu và mức kiểm thử phần mềm|0
+4|Testcase|0
+5|Các nguyên tắc cơ bản về kiểm thử|0
+6|Quy trình và kế hoạch kiểm thử|0
+7|Chương 2. Thanh tra phần mềm|1
+8|Thanh tra và duyệt qua phần mềm|0
+9|Thanh tra bằng danh mục: ví dụ danh mục|0
+10|Các mẫu danh mục ví dụ để thanh tra mã phần mềm|0
+11|Chương 3. Kiểm thử hộp trắng: kiểm thử dòng điều khiển|1
+12|Các cấp phủ kiểm thử|0
+13|Đồ thị dòng điều khiển|0
+14|Qui trình kiểm thử dòng điều khiển|0
+15|Kiểm thử vòng lặp|0
+16|Chương 4. Kiểm thử hộp trắng: Kiểm thử dòng dữ liệu|1
+17|Tầm vực và đời sống 1 biến dữ liệu|0
+18|Các đường thực thi định nghĩa-sử dụng biến|0
+19|Qui trình kiểm thử dòng dữ liệu|0
+20|Chương 5. Các kỹ thuật kiểm thử hộp đen|1
+21|Kỹ thuật phân tích các giá trị biên|0
+22|Kỹ thuật phân lớp tương đương|0
+23|Kỹ thuật dùng bảng quyết định|0
+24|Kỹ thuật kiểm thử cặp đôi|0
+25|Chương 6. Các kỹ thuật kiểm thử hộp đen|1
+26|Kỹ thuật dùng lược đồ chuyển trạng thái|0
+27|Kỹ thuật phân tích vùng|0
+28|Kỹ thuật dùng thông tin trong use-case|0
+29|Kỹ thuật dùng đồ thị nhân quả|0
+30|Chương 7. Kiểm thử module (đơn vị)|1
+31|Thiết kế test case|0
+32|Kiểm thử tăng tiến|0
+33|Kiểm thử từ trên xuống và từ dưới lên|0
+34|Chương 8. Các hoạt động kiểm thử khác|1
+35|Kiểm thử chức năng phần mềm|0
+36|Kiểm thử hệ thống|0
+37|Kiểm thử hồi quy|0
+38|Kiểm thử sự chấp nhận của người dùng|0
+39|Chương 9. Phát triển phần mềm dựa trên kiểm thử và kiểm thử tự động|1
+40|Phát triển phần mềm dựa trên kiểm thử|0
+41|Kiểm thử tự động|0
+42|Chương 10. Các vấn đề khác của kiểm thử|1
+43|Kiểm thử và gỡ rối|0
+44|Kiểm thử ứng dụng internet/di động|0
+45|Điều kiện kết thúc quá trình kiểm thử|0

@@ -1,0 +1,53 @@
+1|Chương 1: Mạng máy tính và Internet|1
+2|Internet là gì?|0
+3|Giao thức là gì?|0
+4|Thiết bị ngoại vi mạng|0
+5|Phần lõi của mạng|0
+6|Hiệu năng mạng|0
+7|An toàn mạng|0
+8|Các tầng giao thức và dịch vụ mạng|0
+9|Lịch sử mạng máy tính|0
+10|Chương 2: Tầng ứng dụng|1
+11|Các nguyên lý cơ bản của ứng dụng mạng|0
+12|Web và HTTP|0
+13|FTP|0
+14|Thư điện tử|0
+15|SMTP, POP3, IMAP|0
+16|DNS|0
+17|Ứng dụng P2P|0
+18|Lập trình socket với TCP và UDP|0
+19|Chương 3: Tầng vận chuyển|1
+20|Các dịch vụ ở tầng vận chuyển|0
+21|Multiplexing và demultiplexing|0
+22|Giao thức không kết nối UDP|0
+23|Nguyên lý truyền dữ liệu tin cậy|0
+24|Giao thức hướng kết nối TCP|0
+25|Nguyên lý điều khiển tắc nghẽn|0
+26|Điều khiển tắc nghẽn trong TCP|0
+27|Chương 4: Tầng mạng|1
+28|Mạng Virtual circuit và mạng không kết nối Datagram|0
+29|Bên trong một bộ định tuyến|0
+30|IP: Giao thức Internet|0
+31|Các giải thuật định tuyến|0
+32|Định tuyến trên mạng Internet|0
+33|Phương pháp định tuyến broadcast và multicast|0
+34|Chương 5: Tầng kết nối dữ liệu và LAN|1
+35|Phát hiện lỗi và sửa lỗi|0
+36|Các giao thức đa truy cập|0
+37|Địa chỉ tầng kết nối dữ liệu|0
+38|Mạng Ethernet|0
+39|Bộ chuyển mạch|0
+40|Chương 6: Mạng di động và không dây|1
+41|Khái niệm không dây|0
+42|Kết nối không dây và đặc điểm|0
+43|CDMA|0
+44|IEEE 802.11 LAN|0
+45|Truy cập Internet di động|0
+46|Vấn đề địa chỉ và định tuyến cho người sử dụng di động|0
+47|Địa chỉ IP di động|0
+48|Chương 8: Anh ninh mạng máy tính|1
+49|Khái niệm an ninh mạng|0
+50|Tính toàn vẹn của gói tin|0
+51|Đảm bảo an toàn cho email|0
+52|Đảm bảo an toàn cho kết nối TCP|0
+53|Đảm bảo an toàn cho mạng không dây LAN|0

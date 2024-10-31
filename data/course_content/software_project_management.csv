@@ -1,0 +1,187 @@
+1|Giới thiệu về quản lý dự án phần mềm|1
+2|Giới thiệu|0
+3|Tại sao quản lý dự án phần mềm lại quan trọng?|0
+4|Dự án là gì?|0
+5|Dự án phần mềm so với các loại dự án khác|0
+6|Quản lý hợp đồng và quản lý dự án kỹ thuật|0
+7|Các hoạt động được quản lý bởi quản lý dự án phần mềm|0
+8|Kế hoạch, phương pháp và phương pháp luận|0
+9|Một số cách phân loại dự án phần mềm|0
+10|Các bên liên quan|0
+11|Đặt mục tiêu|0
+12|Tình huống kinh doanh|0
+13|Thành công và thất bại của dự án|0
+14|Quản lý là gì?|0
+15|Kiểm soát quản lý|0
+16|Kết luận|0
+17|Đánh giá dự án và quản lý chương trình|1
+18|Giới thiệu|0
+19|Tình huống kinh doanh|0
+20|Quản lý danh mục dự án|0
+21|Đánh giá các dự án cá nhân|0
+22|Kỹ thuật đánh giá chi phí-lợi ích|0
+23|Đánh giá rủi ro|0
+24|Quản lý chương trình|0
+25|Quản lý phân bổ tài nguyên trong các chương trình|0
+26|Quản lý chương trình chiến lược|0
+27|Tạo một chương trình|0
+28|Công cụ hỗ trợ quản lý chương trình|0
+29|Một số lo ngại về quản lý chương trình|0
+30|Quản lý lợi ích|0
+31|Tổng quan về lập kế hoạch dự án|1
+32|Giới thiệu về lập kế hoạch dự án theo từng bước|0
+33|Bước 0: Chọn dự án|0
+34|Bước 1: Xác định phạm vi và mục tiêu của dự án|0
+35|Bước 2: Xác định cơ sở hạ tầng dự án|0
+36|Bước 3: Phân tích đặc điểm của dự án|0
+37|Bước 4: Xác định sản phẩm và hoạt động của dự án|0
+38|Bước 5: Ước lượng nỗ lực cho từng hoạt động|0
+39|Bước 6: Xác định rủi ro hoạt động|0
+40|Bước 7: Phân bổ tài nguyên|0
+41|Bước 8: Xem xét/công bố kế hoạch|0
+42|Bước 9 và 10: Thực hiện kế hoạch/lập kế hoạch ở các cấp thấp hơn|0
+43|Lựa chọn phương pháp tiếp cận dự án phù hợp|1
+44|Giới thiệu|0
+45|Xây dựng hay mua?|0
+46|Lựa chọn phương pháp luận và công nghệ|0
+47|Lựa chọn mô hình quy trình|0
+48|Cấu trúc so với tốc độ giao hàng|0
+49|Mô hình thác nước|0
+50|Mô hình xoáy|0
+51|Mô phỏng phần mềm|0
+52|Các cách phân loại mô phỏng khác|0
+53|Giao hàng theo từng giai đoạn|0
+54|Phương pháp Agile|0
+55|Atern/Phương pháp phát triển hệ thống động|0
+56|Lập trình cực đoan (XP)|0
+57|Quản lý quy trình lặp lại|0
+58|Lựa chọn mô hình quy trình phù hợp nhất|0
+59|Ước lượng nỗ lực phần mềm|1
+60|Giới thiệu|0
+61|Ước lượng được thực hiện ở đâu?|0
+62|Vấn đề với ước lượng quá cao và quá thấp|0
+63|Cơ sở cho việc ước lượng phần mềm|0
+64|Kỹ thuật ước lượng nỗ lực phần mềm|0
+65|Ước lượng từ dưới lên|0
+66|Phương pháp từ trên xuống và mô hình tham số|0
+67|Phán đoán của chuyên gia|0
+68|Ước lượng bằng cách so sánh|0
+69|Phân tích điểm chức năng Albrecht|0
+70|Điểm chức năng Mark II|0
+71|Điểm chức năng COSMIC đầy đủ|0
+72|COCOMO II: mô hình năng suất tham số|0
+73|Lập kế hoạch hoạt động|1
+74|Giới thiệu|0
+75|Mục tiêu của lập kế hoạch hoạt động|0
+76|Khi nào nên lập kế hoạch|0
+77|Lịch trình dự án|0
+78|Dự án và hoạt động|0
+79|Sắp xếp và lập lịch hoạt động|0
+80|Mô hình lập kế hoạch mạng|0
+81|Xây dựng mô hình mạng|0
+82|Thêm chiều thời gian|0
+83|Quá trình tiến|0
+84|Quá trình lùi|0
+85|Xác định đường đi quan trọng|0
+86|Thời gian hoạt động|0
+87|Rút ngắn thời gian dự án|0
+88|Xác định hoạt động quan trọng|0
+89|Mạng lưới hoạt động-trên-mũi tên|0
+90|Quản lý rủi ro|1
+91|Giới thiệu|0
+92|Rủi ro|0
+93|Các loại rủi ro|0
+94|Khung làm việc để xử lý rủi ro|0
+95|Xác định rủi ro|0
+96|Đánh giá rủi ro|0
+97|Lập kế hoạch rủi ro|0
+98|Quản lý rủi ro|0
+99|Đánh giá rủi ro đối với lịch trình|0
+100|Áp dụng kỹ thuật PERT|0
+101|Mô phỏng Monte Carlo|0
+102|Khái niệm chuỗi quan trọng|0
+103|Phân bổ tài nguyên|1
+104|Giới thiệu|0
+105|Bản chất của tài nguyên|0
+106|Xác định yêu cầu tài nguyên|0
+107|Lập lịch tài nguyên|0
+108|Tạo đường đi quan trọng|0
+109|Đếm chi phí|0
+110|Cụ thể|0
+111|Công bố lịch trình tài nguyên|0
+112|Lịch trình chi phí|0
+113|Trình tự lập lịch|0
+114|Giám sát và kiểm soát|1
+115|Giới thiệu|0
+116|Tạo khung làm việc|0
+117|Thu thập dữ liệu|0
+118|Hình dung tiến độ|0
+119|Giám sát chi phí|0
+120|Phân tích giá trị đã kiếm được|0
+121|Ưu tiên giám sát|0
+122|Đưa dự án trở lại mục tiêu|0
+123|Kiểm soát thay đổi|0
+124|Quản lý hợp đồng|1
+125|Giới thiệu|0
+126|Các loại hợp đồng|0
+127|Các giai đoạn trong việc đặt hợp đồng|0
+128|Các điều khoản điển hình của một hợp đồng|0
+129|Quản lý hợp đồng|0
+130|Chấp nhận|0
+131|Quản lý con người trong môi trường phần mềm|1
+132|Giới thiệu|0
+133|Hiểu hành vi|0
+134|Hành vi tổ chức: một cái nhìn tổng quan|0
+135|Lựa chọn người phù hợp cho công việc|0
+136|Hướng dẫn các phương pháp tốt nhất|0
+137|Động lực|0
+138|Mô hình đặc điểm công việc Oldham-Hackman|0
+139|Căng thẳng|0
+140|Sức khỏe và an toàn|0
+141|Một số vấn đề đạo đức và nghề nghiệp|0
+142|Làm việc theo nhóm|1
+143|Giới thiệu|0
+144|Trở thành một đội|0
+145|Quyết định|0
+146|Cấu trúc tổ chức|0
+147|Các phụ thuộc phối hợp|0
+148|Nhóm phân tán và ảo|0
+149|Thể loại giao tiếp|0
+150|Kế hoạch giao tiếp|0
+151|Lãnh đạo|0
+152|Kết luận|0
+153|Các bài tập thêm|0
+154|Chất lượng phần mềm|1
+155|Giới thiệu|0
+156|Vai trò của chất lượng phần mềm trong lập kế hoạch dự án|0
+157|Tầm quan trọng của chất lượng phần mềm|0
+158|Định nghĩa chất lượng phần mềm|0
+159|ISO 9126|0
+160|Quản lý chất lượng sản phẩm so với quy trình|0
+161|Hệ thống quản lý chất lượng|0
+162|Mô hình năng lực quy trình|0
+163|Các kỹ thuật để nâng cao chất lượng phần mềm|0
+164|Kiểm tra|0
+165|Thực hành quản lý chất lượng|0
+166|Quản lý trong dự án phần mềm|0
+167|Giới thiệu|0
+168|Công việc trong dự án phần mềm|0
+169|Lập kế hoạch|0
+170|Lập ngân sách|0
+171|Lập danh sách theo dõi|0
+172|Theo dõi|0
+173|Đánh giá|0
+174|Khởi động|0
+175|Kết thúc|0
+176|Giám sát|0
+177|Kết luận|0
+178|Tương lai của quản lý dự án phần mềm|1
+179|Giới thiệu|0
+180|Các xu hướng trong quản lý dự án|0
+181|Chuyển đổi sang mô hình Agile|0
+182|Chất lượng phần mềm|0
+183|Quản lý rủi ro|0
+184|Những thách thức trong quản lý dự án phần mềm|0
+185|Phương pháp tiếp cận cho tương lai|0
+186|Phát triển bền vững|0
+187|Tăng trưởng|0

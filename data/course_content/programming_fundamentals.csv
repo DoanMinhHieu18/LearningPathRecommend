@@ -1,0 +1,53 @@
+1|Chương 1: Giới thiệu về máy tính và lập trình|1
+2|Phần cứng và phần mềm máy tính|0
+3|Ngôn ngữ lập trình|0
+4|Giải quyết vấn đề và phát triển phần mềm|0
+5|Giải thuật|0
+6|Chương 2: Các thành phần căn bản của C++|1
+7|Cấu trúc chương trình|0
+8|Kiểu dữ liệu và các phép toán|0
+9|Biến và khai báo biến|0
+10|Các thể loại (short, long, unsigned) của kiểu nguyên|0
+11|Thí dụ về giải quyết vấn đề|0
+12|Chương 3: Các thành phần căn bản khác của C++|1
+13|Các phép toán gán|0
+14|Các định dạng số liệu để xuất ra|0
+15|Sử dụng các hàm thư viện|0
+16|Nhập trị với phát biểu cin|0
+17|Các hằng ký hiệu|0
+18|Chương 4: Cấu trúc rẽ nhánh|1
+19|Tiêu chuẩn rẽ nhánh|0
+20|Phát biểu if-else|0
+21|Phát biểu if lồng nhau|0
+22|Phát biểu switch|0
+23|Đặc tả kiểu liệt kê enum|0
+24|Chương 5: Các cấu trúc lặp - mảng và lập trình có cấu trúc|1
+25|Các cấu trúc lặp căn bản|0
+26|Vòng lặp while|0
+27|Vòng lặp while tương tác|0
+28|Vòng lặp for|0
+29|Các vòng lặp lồng nhau|0
+30|Vòng lặp do-while|0
+31|Lập trình có cấu trúc|0
+32|Mảng|0
+33|Cấu trúc|0
+34|Chương 6: Hàm và con trỏ|1
+35|Mạch cài: NAND và NOR|0
+36|Hàm và khai báo tham số|0
+37|Trị trả về của hàm|0
+38|Tầm vực của biến|0
+39|Các loại lưu trữ biến|0
+40|Truyền bằng tham khảo|0
+41|Đệ quy|0
+42|Truyền mảng như là tham số của hàm|0
+43|Con trỏ (pointer)|0
+44|Chương 7: Giới thiệu về lớp|1
+45|Lớp|0
+46|Che giấu thông tin|0
+47|Các hàm thành phần|0
+48|Cấp phát bộ nhớ động với các toán tử new và delete|0
+49|Con trỏ như là thành phần của lớp|0
+50|Các hàm tạo cao cấp|0
+51|Các hàm hủy|0
+52|Các đối tượng hằng|0
+53|Tính thừa kế|0

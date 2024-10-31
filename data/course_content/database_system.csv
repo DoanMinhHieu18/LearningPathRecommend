@@ -1,0 +1,48 @@
+1|Tổng quan về hệ cơ sở dữ liệu|1
+2|Các khái niệm: dữ liệu, thông tin, siêu dữ liệu|0
+3|Hệ thống xử lý tập tin|0
+4|Cách tiếp cận cơ sở dữ liệu|0
+5|Mô hình dữ liệu. Các loại mô hình dữ liệu|0
+6|Hệ quản trị cơ sở dữ liệu|0
+7|Hệ cơ sở dữ liệu. Kiến trúc 3 mức, các thành phần, và khái niệm độc lập dữ liệu|0
+8|Ứng dụng cơ sở dữ liệu|0
+9|Mô hình thực thể mối liên kết|1
+10|Các bước phát triển cơ sở dữ liệu|0
+11|Mô hình hóa dữ liệu ý niệm|0
+12|Mô hình thực thể mối liên kết|0
+13|Mô hình thực thể mối liên kết mở rộng|0
+14|Câu hỏi và bài tập ôn tập|0
+15|Mô hình dữ liệu quan hệ|1
+16|Các khái niệm: miền, tích Descartes, thuộc tính|0
+17|Lược đồ quan hệ. Quan hệ|0
+18|Biến đổi lược đồ thực thể mối liên kết ở mức ý niệm thành các quan hệ|0
+19|Đại số quan hệ|0
+20|Ngôn ngữ SQL|1
+21|Ngôn ngữ SQL|0
+22|Các lệnh định nghĩa dữ liệu (DDL)|0
+23|Các lệnh thao tác dữ liệu (DML)|0
+24|Các lệnh điều khiển (DCL)|0
+25|Hàm|0
+26|Thủ tục|0
+27|Chương trình kích khởi (trigger)|0
+28|Phương pháp thiết kế cơ sở dữ liệu|1
+29|Hướng dẫn thiết kết lược đồ cơ sở dữ liệu quan hệ|0
+30|Phụ thuộc hàm|0
+31|Các dạng chuẩn dựa trên khóa chính|0
+32|Dạng chuẩn Boyce-Codd|0
+33|Các đặc điểm phân rã lược đồ quan hệ|0
+34|Các giải thuật thiết kế lược đồ cơ sở dữ liệu quan hệ|0
+35|Lưu trữ và quản lý cơ sở dữ liệu|1
+36|Lưu trữ dữ liệu vật lý|0
+37|Các kỹ thuật đánh chỉ mục dữ liệu|0
+38|Các cách tiếp cận quản lý dữ liệu phức tạp (dữ liệu bán cấu trúc và dữ liệu phi cấu trúc)|0
+39|Các cách tiếp cận quản lý dữ liệu siêu lớn|0
+40|Các vấn đề về chất lượng dữ liệu: khả tin cậy, khả co giãn theo qui mô dữ liệu, hiệu suất, và hiệu quả|0
+41|Bảo mật cơ sở dữ liệu|1
+42|Điều khiển truy xuất cơ sở dữ liệu theo cơ chế DAC & MAC|0
+43|Điều khiển dòng thông tin và bài toán suy diễn thông tin|0
+44|Những vấn đề bảo mật trong các hệ quản trị dữ liệu mới|0
+45|Ôn tập|1
+46|Những công nghệ cơ sở dữ liệu mới|0
+47|Những ứng dụng cơ sở dữ liệu mới|0
+48|Những hướng nghiên cứu mới về cơ sở dữ liệu và hệ thống thông tin|0

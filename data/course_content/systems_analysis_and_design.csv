@@ -1,0 +1,122 @@
+1|Đảm nhiệm vai trò của nhà phân tích hệ thống|1
+2|Các nguyên lý cơ bản của các loại hệ thống thông tin khác nhau|0
+3|Vai trò của nhà phân tích hệ thống|0
+4|Các giai đoạn trong vòng đời phát triển hệ thống liên quan đến các yếu tố tương tác Người - Máy (HCI)|0
+5|Các công cụ Kỹ thuật phần mềm hỗ trợ máy tính (CASE)|0
+6|Hiểu biết về phong cách tổ chức và tác động của nó đến hệ thống thông tin|1
+7|Tổ chức như là các hệ thống|0
+8|Mô tả hệ thống bằng hình ảnh|0
+9|Các cấp độ quản lý|0
+10|Văn hóa tổ chức|0
+11|Quản lý dự án|1
+12|Khởi đầu dự án|0
+13|Xác định tính khả thi|0
+14|Xác định các tài nguyên|0
+15|Lập kế hoạch và kiểm soát hoạt động|0
+16|Quản lý các hoạt động phân tích và thiết kế|0
+17|Phương pháp Agile|0
+18|Thu thập thông tin: Phương pháp tương tác|1
+19|Phỏng vấn|0
+20|Thiết kế ứng dụng chung (JAD)|0
+21|Bảng câu hỏi|0
+22|Thu thập thông tin: Phương pháp không can thiệp|1
+23|Lấy mẫu|0
+24|Phân tích tài liệu định lượng|0
+25|Phân tích tài liệu định tính|0
+26|Quan sát|0
+27|STROBE|0
+28|Áp dụng STROBE|0
+29|Mô hình hóa và tạo mẫu Agile|1
+30|Tạo mẫu|0
+31|Phát triển ứng dụng nhanh (RAD)|0
+32|Mô hình hóa Agile|0
+33|Sử dụng các biểu đồ luồng dữ liệu|1
+34|Các ký hiệu biểu đồ luồng dữ liệu|0
+35|Các mức độ biểu đồ luồng dữ liệu|0
+36|Tạo các biểu đồ luồng dữ liệu|0
+37|Biểu đồ luồng dữ liệu vật lý và logic|0
+38|Phân chia|0
+39|Giao tiếp qua biểu đồ luồng dữ liệu|0
+40|Phân tích hệ thống bằng từ điển dữ liệu|1
+41|Từ điển dữ liệu|0
+42|Kho lưu trữ dữ liệu|0
+43|Định nghĩa luồng dữ liệu|0
+44|Định nghĩa cấu trúc dữ liệu|0
+45|Định nghĩa các phần tử dữ liệu|0
+46|Định nghĩa kho dữ liệu|0
+47|Sử dụng từ điển dữ liệu|0
+48|XML|0
+49|Mô tả đặc tả quy trình và quyết định có cấu trúc|1
+50|Đặc tả quy trình|0
+51|Quy tắc kinh doanh|0
+52|Tiếng Anh có cấu trúc|0
+53|Bảng quyết định|0
+54|Cây quyết định|0
+55|Cân bằng ngang|0
+56|Chuẩn bị đề xuất hệ thống|1
+57|Xác định nhu cầu phần cứng/phần mềm|0
+58|Chi phí và lợi ích hữu hình và vô hình|0
+59|Đề xuất hệ thống|0
+60|Sử dụng bảng, biểu đồ và hình ảnh|0
+61|Thiết kế đầu ra hiệu quả|1
+62|Thiết kế đầu ra|0
+63|Các công nghệ đầu ra|0
+64|Yếu tố trong việc chọn công nghệ đầu ra|0
+65|Thiết kế báo cáo|0
+66|Thiết kế màn hình|0
+67|Thiết kế trang web|0
+68|Thiết kế đầu vào hiệu quả|1
+69|Thiết kế đầu vào|0
+70|Thiết kế biểu mẫu|0
+71|Thiết kế hiển thị|0
+72|Thiết kế màn hình GUI|0
+73|Các điều khiển GUI|0
+74|Hướng dẫn thiết kế web|0
+75|Thiết kế cơ sở dữ liệu|1
+76|Cơ sở dữ liệu|0
+77|Chuẩn hóa|0
+78|Thiết kế khóa|0
+79|Sử dụng cơ sở dữ liệu|0
+80|Kho dữ liệu|0
+81|Khai phá dữ liệu|0
+82|Giao diện Người-Máy|1
+83|Hiểu về tương tác Người-Máy|0
+84|Phù hợp|0
+85|Mô hình chấp nhận công nghệ (TAM)|0
+86|Thiết kế theo phong cách nhận thức của từng cá nhân|0
+87|Các yếu tố vật lý trong thiết kế HCI|0
+88|Giao diện người dùng|0
+89|Thiết kế đối thoại|0
+90|Phản hồi|0
+91|Truy vấn|0
+92|Thiết kế quy trình nhập dữ liệu chính xác|1
+93|Mã hóa hiệu quả|0
+94|Các loại mã|0
+95|Hướng dẫn mã hóa|0
+96|Phương pháp kiểm tra|0
+97|Số kiểm tra|0
+98|Độ chính xác trong thương mại điện tử|0
+99|Đảm bảo chất lượng thông qua Kỹ thuật phần mềm|1
+100|Six Sigma|0
+101|Đảm bảo chất lượng|0
+102|Kiểm tra từng bước|0
+103|Biểu đồ cấu trúc|0
+104|Các module|0
+105|Truyền dữ liệu và điều khiển|0
+106|Tài liệu|0
+107|Kiểm thử|0
+108|Triển khai hệ thống thông tin thành công|1
+109|Máy khách/máy chủ|0
+110|Các loại mạng|0
+111|Phần mềm nhóm (Groupware)|0
+112|Đào tạo|0
+113|An ninh|0
+114|Ẩn dụ tổ chức|0
+115|Đánh giá|0
+116|Phân tích và thiết kế hệ thống hướng đối tượng bằng UML|1
+117|Các khái niệm hướng đối tượng|0
+118|Thẻ CRC và tư duy hướng đối tượng|0
+119|Ngôn ngữ mô hình hóa thống nhất (UML)|0
+120|Các trường hợp sử dụng và biểu đồ UML khác|0
+121|Các gói|0
+122|Sử dụng UML|0

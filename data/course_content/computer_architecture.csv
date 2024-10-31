@@ -1,0 +1,86 @@
+1|Các trừu tượng và công nghệ máy tính|1
+2|Giới thiệu|0
+3|Tám ý tưởng lớn trong kiến trúc máy tính|0
+4|Dưới chương trình của bạn|0
+5|Bên trong máy tính|0
+6|Các công nghệ để xây dựng bộ xử lý và bộ nhớ|0
+7|Hiệu suất|0
+8|Bức tường năng lượng|0
+9|Sự thay đổi: Chuyển từ bộ xử lý đơn sang đa bộ xử lý|0
+10|Thực tế: Đánh giá Intel Core i7|0
+11|Sai lầm và cạm bẫy|0
+12|Lệnh: Ngôn ngữ của máy tính|1
+13|Giới thiệu|0
+14|Các thao tác của phần cứng máy tính|0
+15|Các toán hạng của phần cứng máy tính|0
+16|Số có dấu và không dấu|0
+17|Đại diện lệnh trong máy tính|0
+18|Các thao tác logic|0
+19|Lệnh để đưa ra quyết định|0
+20|Hỗ trợ thủ tục trong phần cứng máy tính|0
+21|Giao tiếp với con người|0
+22|Địa chỉ MIPS cho số liệu và địa chỉ 32-bit|0
+23|Song song và lệnh: Đồng bộ hóa|0
+24|Dịch và khởi động một chương trình|0
+25|Ví dụ sắp xếp trong C để đưa tất cả lại với nhau|0
+26|Mảng và con trỏ|0
+27|Nội dung nâng cao: Biên dịch C và diễn giải Java|0
+28|Thực tế: Lệnh ARMv7 (32-bit)|0
+29|Thực tế: Lệnh x86|0
+30|Thực tế: Lệnh ARMv8 (64-bit)|0
+31|Sai lầm và cạm bẫy|0
+32|Số học cho máy tính|1
+33|Giới thiệu|0
+34|Phép cộng và trừ|0
+35|Phép nhân|0
+36|Phép chia|0
+37|Số dấu phẩy động|0
+38|Song song và số học máy tính: Song song theo từ|0
+39|Thực tế: Mở rộng SIMD truyền dữ liệu và mở rộng vector nâng cao trong x86|0
+40|Đi nhanh hơn: Song song theo từ và nhân ma trận|0
+41|Sai lầm và cạm bẫy|0
+42|Bộ xử lý|1
+43|Giới thiệu|0
+44|Quy ước thiết kế logic|0
+45|Xây dựng đường dữ liệu|0
+46|Một cách triển khai đơn giản|0
+47|Tổng quan về pipeline|0
+48|Đường dữ liệu pipeline và điều khiển|0
+49|Xung đột dữ liệu: Chuyển tiếp và dừng|0
+50|Xung đột điều khiển|0
+51|Ngoại lệ|0
+52|Song song thông qua lệnh|0
+53|Thực tế: Pipeline ARM Cortex-A8 và Intel Core i7|0
+54|Đi nhanh hơn: Song song mức lệnh và nhân ma trận|0
+55|Chủ đề nâng cao: Giới thiệu về thiết kế kỹ thuật số sử dụng ngôn ngữ thiết kế phần cứng để mô tả và mô hình hóa pipeline và minh họa thêm về pipeline|0
+56|Sai lầm và cạm bẫy|0
+57|Lớn và nhanh: Khai thác hệ thống bộ nhớ|1
+58|Giới thiệu|0
+59|Công nghệ bộ nhớ|0
+60|Nguyên tắc cơ bản của bộ nhớ đệm|0
+61|Đo lường và cải thiện hiệu suất bộ nhớ đệm|0
+62|Hệ thống bộ nhớ đáng tin cậy|0
+63|Máy ảo|0
+64|Bộ nhớ ảo|0
+65|Khung chung cho hệ thống bộ nhớ|0
+66|Sử dụng máy trạng thái hữu hạn để điều khiển một bộ nhớ đệm đơn giản|0
+67|Song song và hệ thống bộ nhớ: Nhất quán bộ nhớ đệm|0
+68|Song song và hệ thống bộ nhớ: Mảng dự phòng các ổ đĩa giá rẻ|0
+69|Nội dung nâng cao: Triển khai bộ điều khiển bộ nhớ đệm|0
+70|Thực tế: Hệ thống bộ nhớ ARM Cortex-A8 và Intel Core i7|0
+71|Đi nhanh hơn: Chặn bộ nhớ đệm và nhân ma trận|0
+72|Sai lầm và cạm bẫy|0
+73|Bộ xử lý song song từ máy khách đến đám mây|1
+74|Giới thiệu|0
+75|Khó khăn trong việc tạo chương trình xử lý song song|0
+76|SISD, MIMD, SIMD, SPMD và vector|0
+77|Đa luồng phần cứng|0
+78|Đa lõi và các bộ xử lý bộ nhớ chia sẻ khác|0
+79|Giới thiệu về đơn vị xử lý đồ họa|0
+80|Cụm, máy tính quy mô kho và các bộ xử lý truyền thông điệp khác|0
+81|Giới thiệu về các cấu trúc liên kết mạng bộ xử lý đa lõi|0
+82|Giao tiếp với thế giới bên ngoài: Mạng lưới cụm|0
+83|Các mô hình hiệu năng và điểm chuẩn của bộ xử lý đa lõi|0
+84|Thực tế: Đánh giá Intel Core i7 so với NVIDIA Tesla GPU|0
+85|Đi nhanh hơn: Nhiều bộ xử lý và nhân ma trận|0
+86|Sai lầm và cạm bẫy|0

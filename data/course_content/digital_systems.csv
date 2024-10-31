@@ -1,0 +1,66 @@
+1|Các hệ thống số và mã|1
+2|Số và tương tự, DAC và ADC|0
+3|Các hệ thống số đếm|0
+4|Chuyển đổi giữa các hệ thống số đếm|0
+5|Mã BCD, Excess-3, Gray, Alphanumeric|0
+6|Phương pháp kiểm tra và phát hiện lỗi|0
+7|Parity|0
+8|Đại số Boole và các cổng luận lý|1
+9|Đại số Boole|0
+10|Biểu thức đại số Boole|0
+11|Phép toán OR, AND, NOT và các cổng luận lý|0
+12|Đặc tả mạch luận lý bằng phương pháp đại số|0
+13|Đánh giá mạch luận lý|0
+14|Xây dựng mạch từ biểu thức đại số Boole|0
+15|Cổng NOR và cổng NAND|0
+16|Các định lý Boole|0
+17|Định lý DeMorgan|0
+18|Các cổng phổ dụng: NAND và NOR|0
+19|Các dạng biểu diễn tương đương của các cổng luận lý cơ bản - Chuẩn IEEE/ANSI|0
+20|Mạch luận lý tổ hợp|1
+21|Các dạng chuẩn của biểu thức Boole: Tổng các tích (SOP) và Tích các tổng (POS)|0
+22|Đơn giản mạch tổ hợp – Phương pháp đại số|0
+23|Thiết kế mạch luận lý tổ hợp|0
+24|Phương pháp bìa Karnaugh|0
+25|Mạch Exclusive-OR và Exclusive-NOR|0
+26|Mạch tạo/kiểm tra parity|0
+27|Các mạch cấm/cho phép|0
+28|IC số và các đặc tính cơ bản của IC số|0
+29|Giới thiệu họ CMOS, TTL|0
+30|Giới thiệu Verilog|0
+31|Flip-Flop và mạch tuần tự|1
+32|Mạch cài: NAND và NOR|0
+33|Tín hiệu xung clock - Flip-flop sử dụng xung clock|0
+34|S-C Flip-Flop, J-K Flip-Flop, D Flip-Flop|0
+35|Mạch cài D|0
+36|Các tín hiệu ngõ nhập bất đồng bộ|0
+37|Ký hiệu IEEE/ANSI|0
+38|Các đặc tính thời gian của Flip-Flop, vấn đề thời gian trễ trong mạch Flip-Flop|0
+39|Các ứng dụng sử dụng Flip-Flop|0
+40|Các phép toán và mạch|1
+41|Phép cộng nhị phân|0
+42|Biểu diễn các số có dấu|0
+43|Phép cộng/trừ trong hệ thống số bù 2|0
+44|Phép nhân/chia các số nhị phân|0
+45|Phép cộng BCD|0
+46|Các phép toán hệ thập lục phân|0
+47|Các mạch đại số|0
+48|Mạch cộng nhị phân song song|0
+49|Mạch cộng toàn phần/bán phần|0
+50|Mạch cộng/trừ toàn phần|0
+51|Bộ đếm và thanh ghi|1
+52|Bộ đếm bất đồng bộ|0
+53|IC đếm bất đồng bộ|0
+54|Bộ đếm xuống bất đồng bộ|0
+55|Thời gian trễ trong bộ đếm bất đồng bộ|0
+56|Bộ đếm đồng bộ|0
+57|Bộ đếm xuống và lên/xuống đồng bộ|0
+58|Bộ đếm có thể thiết lập trạng thái ban đầu|0
+59|IC đếm đồng bộ|0
+60|Thiết kế bộ đếm đồng bộ|0
+61|Các IC thanh ghi, bộ đếm thanh ghi-dịch|0
+62|Các ứng dụng của bộ đếm|0
+63|Thiết kế mạch tổ hợp sử dụng vi mạch MSI|1
+64|Mạch mã hóa/giải mã|0
+65|Mạch ghép kênh/phân kênh|0
+66|Data bus|0

@@ -1,0 +1,53 @@
+1|Chương 1. Giới thiệu|1
+2|Giới thiệu về ngôn ngữ lập trình|0
+3|Lịch sử phát triển ngôn ngữ lập trình|0
+4|Các tiêu chí đánh giá ngôn ngữ lập trình|0
+5|Chương 2. Mô tả từ vựng|1
+6|Các khái niệm cơ bản|0
+7|Biểu thức chính qui|0
+8|Automata và phương pháp nhận dạng token|0
+9|Công cụ xây dựng trình phân tích từ vựng|0
+10|Chương 3. Văn phạm|1
+11|Các khái niệm cơ bản|0
+12|Văn phạm phi ngữ cảnh và BNF|0
+13|Cây phân tích và cây cú pháp trừu tượng|0
+14|Sự nhập nhằng, tính kết hợp và độ ưu tiên|0
+15|Các kỹ thuật phân tích và công cụ|0
+16|Chương 4. Ngôn ngữ lập trình hàm|1
+17|Giới thiệu về ngôn ngữ lập trình hàm|0
+18|Lập trình không hiệu ứng lề|0
+19|Hàm cấp cao|0
+20|Bao đóng hàm|0
+21|Chương 5. Ngôn ngữ lập trình hướng đối tượng|1
+22|Các khái niệm cơ bản của OOP|0
+23|Đơn thừa kế và đa thừa kế|0
+24|Mẫu thiết kế Visitor|0
+25|Chương 6: Cây cú pháp trừu tượng|1
+26|Khái niệm|0
+27|Sinh cây cú pháp trừu tượng|0
+28|Chương 7. Ngữ nghĩa cơ bản|1
+29|Thuộc tính và ràng buộc|0
+30|Khai báo, khối và tầm vực|0
+31|Bảng danh hiệu|0
+32|Phân giải và chất tràn tên|0
+33|Cấp phát, thời gian sống và môi trường|0
+34|Biến và hằng|0
+35|Bí danh, tham khảo treo và rác|0
+36|Chương 8. Các kiểu dữ liệu|1
+37|Thông tin kiểu|0
+38|Các kiểu cơ bản|0
+39|Hàm dựng kiểu|0
+40|Tương đương kiểu|0
+41|Kiểm tra kiểu|0
+42|Chuyển đổi kiểu|0
+43|Trừu tượng hóa dữ liệu|0
+44|Chương 9. Các cấu trúc điều khiển|1
+45|Biểu thức|0
+46|Phát biểu điều kiện|0
+47|Các lệnh lặp|0
+48|Trừu tượng hóa điều khiển|0
+49|Các cơ chế truyền tham số|0
+50|Chương 10. Sinh mã|1
+51|Máy JVM|0
+52|Mã Jasmin|0
+53|Sinh mã Jasmin cho máy JVM|0
