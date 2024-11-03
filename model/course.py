@@ -11,6 +11,7 @@ class Course:
         self.is_course = is_course
         self.is_group_c = is_group_c
         self.is_group_d = is_group_d
+        self.note = None
         
     def __repr__(self):
         return (f"Course(course_id={self.course_id}, course_name='{self.course_name}', major_id={self.major_id}, "

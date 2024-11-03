@@ -1,5 +1,5 @@
 class Learner:
-    def __init__(self, majors_list):
+    def __init__(self):
         self.learner_mssv = 2110162
         self.learner_english_level = 4
         self.learner_major = 5
